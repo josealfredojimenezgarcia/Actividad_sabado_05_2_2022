@@ -1,0 +1,15 @@
+.contenedor1{
+  display:block;
+  border:solid;
+  background-color: rgb(204, 177, 230);
+  height: 200px;
+}
+.piePagina{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: beige;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}

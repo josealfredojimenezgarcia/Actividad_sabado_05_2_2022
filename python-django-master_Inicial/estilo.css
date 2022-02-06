@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* font-size: 1rem; */
+}
+body{
+  background-color: rgb(146, 80, 138);
+  color:rgb(204, 187, 187);
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 3%;
+  padding: 2%;
+  border: 0px solid blue;
+  border-radius: 45px;
+  background-color: rgba(38, 218, 224, 0.164);
+  text-align: center;
+
+}
+h2, h3,h4,h5,h6{
+text-align: left;
+}
+
+a{
+  margin:2%;
+  padding: 1%;
+  color:rgb(241, 234, 234);
+  border: 0px solid red;
+  border-radius: 15px;
+  background-color:darkviolet;
+  font-size: 10;
+  font-weight: 200;
+  text-decoration: none;
+ 
+}
+
+section{
+  margin: 25px 5%;
+  padding: 1%;
+
+}
+.horario_clases, .contenido{
+  margin:3%;
+  padding: 2%;
+  color:rgb(182, 176, 176);
+  border: 0px solid rgb(12, 70, 60);
+  border-radius: 15px;
+  background-color:rgba(90, 25, 90, 0.589);
+  font-size: large;
+  font-weight: 10;
+  text-decoration: none;
+} 
+
+.hache1,.referencia1{
+  color:rgb(247, 242, 242);
+  background-color:rgba(162, 238, 252, 0.685);
+}
+
+.table1{
+  margin:2%;
+  padding: 1%;
+  color:rgb(241, 234, 234);
+  border: 0px solid red;
+  border-radius: 10px;
+  background-color:rgb(117, 66, 138);
+ font-size: 10;
+  font-weight: 200;
+  text-decoration: none;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.table1 a{
+background-color:rgba(255, 255, 255, 0);
+}
+.w3schools{
+  text-align: center;
+  background-color: rgba(92, 16, 122, 0.24);
+  font-weight: 900;
+}
+
+.columnas{
+  background-color: rgba(51, 255, 0, 0.37);
+}
+
+.fila1,.fila2,.fila3{
+  background-color: rgba(215, 245, 187, 0.315);
+}
+a:hover,a:focus{
+  background-color: #18315f;
+  color:gold;
+  border-radius: 5px;
+  
+}
+
+
+.piePagina{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: beige;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}

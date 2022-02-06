@@ -1,0 +1,53 @@
+
+html{
+  background-color: goldenrod;
+  margin: 1%;
+}
+h1{
+  text-align: center;
+}
+body{
+  background-color: rgba(6, 126, 120, 0.151);
+  margin: 10px auto;
+  width: 85%;
+  padding: 50px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.imagen, .datos_contacto,.idiomas,.conocimientos{
+  width: 64%;
+  border: solid;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.experienciaLaboral,.educacion{
+  width: 100%;
+  border: solid;
+  padding: 20px;
+
+}
+.piePagina{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: beige;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+main{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+.izquierdo{
+  width: 90%;
+}
+
+.derecho{
+  width: 80%;
+}

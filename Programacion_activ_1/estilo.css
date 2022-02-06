@@ -1,0 +1,9 @@
+.piePagina{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: beige;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}

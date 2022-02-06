@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>my firist page</title>
+    <style>
+        html{
+            background-color:orange;
+        }
+        .cuerpo {
+          background-color:white;
+          /* font-size: 50%; */
+          border: solid 5px rgb(97, 90, 73);
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          margin:  auto 10rem;
+          padding: 2rem;
+          border-radius: 10px;
+        }
+        .titulo {          
+            text-align: center;
+            color:tomato;
+            font-size: 60px;
+        }
+        h2 {
+            text-align:left;
+            color:plum;
+        }
+        .parrafo {
+            text-align: left;
+        }
+        ol {
+            display:flex;
+            list-style:none;
+           justify-content:space-evenly;
+        }
+        .navegador{
+          
+            color: royalblue;
+            border:  0px solid rgb(238, 18, 18);
+            padding: 1%;
+            margin: 2%;
+            border-radius: 50%;
+            background-color: orange;
+            text-align: left;
+            width: min-content;
+            
+        }
+    li{
+      display: inline;
+      padding: 15px;
+      margin: 2%;
+         
+        }
+        li a{
+        
+            text-decoration: none;
+            font-weight: 900;
+            
+        }
+        li:hover{
+            background-color: rgb(10, 215, 252);
+            border: none;
+            
+        }
+       li > a:hover{
+            color:ghostwhite;
+            text-transform: uppercase;
+            padding: 60px;
+        }
+ol{
+    margin: 3rem;
+}
+
+.footer{
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.534);
+    color:white;
+    text-align: center;
+    font-size: 0.7rem;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.table{
+    background-color: lightcoral;
+    border-radius: 50%;
+    padding: 0.2rem;
+    text-decoration: none;
+}
+.table:hover{
+    background-color: rgb(24, 2, 148);
+    color:lavender;
+    font-weight: 900;
+    font-family: cursive;
+    border-radius: 35%;
+    padding: 0.5rem;
+}
+.etiqueta_h3{
+    color:seagreen;
+}
+
+    </style>
+</head>
+<body class="cuerpo">
+    <h1 class="titulo">Clase 1 de Programacion Web  </h1>
+    <ol class="navegador1">
+        <li class="navegador"><a href="./index.html"> Home</a> </li>
+        <li class="navegador"><a href="./table.html"> Tabla</a> </li>
+        <li class="navegador"><a href="./imagenes.html"> Imágenes</a> </li>
+    </ol>  
+    <p class="parrafo"> 
+        En este articulo vamos a explicar lo que aprendi hoy
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, ratione! Obcaecati accusantium nesciunt veritatis repudiandae voluptatibus, harum nam soluta incidunt recusandae quia. Harum incidunt ad doloribus ut, voluptatum nihil laboriosam?
+    </p>
+
+  
+    
+    <h2>Uso de html    </h2>
+    <p> Es lo que usa el navegador para morstrar paginas</p>
+
+    <h2>Uso de tablas    </h2>
+    <p> Para ver la informacion en tablas podemos usar la etiqueta table .... 
+    <a class="table" href="./table.html"> Ejemplo</a>
+        <br> <br>
+    <a class="table" href="https://www.w3schools.com/">ver mas ejemplos</a>
+
+    </p>
+
+    <h2>Uso de hipervinculos    </h2>
+    <p> Para hacer referencias  podemos usar la etiqueta a href .... 
+    <h3 class="etiqueta_h3"> Absoluta</h3>
+    <a class="table" href="https://www.w3schools.com/">Ver mas ejemplos</a>
+    <h3 class="etiqueta_h3"> Relativa</h3>
+    <a class="table" href="./table.html">Tabla</a>    
+    
+    <h3 class="etiqueta_h3">Etiqueta  </h3>
+    &lt;html&gt;
+    &lt;/html&gt;
+
+    <footer class="piePagina">
+
+        <p>Todos los derechos reservados &copy; José Alfredo Jiménez | Términos de
+          uso</p>
+      </footer>
+
+</body>
+
+</html>
+
